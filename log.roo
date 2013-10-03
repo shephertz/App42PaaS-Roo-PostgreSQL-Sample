@@ -1,0 +1,22 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-10-03 16:17:28
+project --topLevelPackage com.shephertz.app42.paas
+persistence setup --provider HIBERNATE --database POSTGRES
+entity jpa --class com.shephertz.app42.paas.App42User
+field string --fieldName name
+field string --fieldName email
+field string --fieldName description
+controller scaffold --class ~.App42User
+web mvc setup
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-10-03 16:19:44
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-10-03 16:26:31
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-10-03 16:27:22
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-10-03 16:34:38
+perform package
+perform package
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-10-03 16:38:53
+perform package
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-10-03 16:41:05
