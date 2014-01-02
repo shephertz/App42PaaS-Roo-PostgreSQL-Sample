@@ -38,7 +38,7 @@ Project Configuration:
 		 
         1. Open database.properties (located in src/main/resources/META-INF/spring folder).
 
-        2. Update the details of your MySQL service in it.
+        2. Update the details of your PostgreSQL service in it.
 
                 database.driverClassName=org.postgresql.Driver
 				database.url=jdbc:postgresql://host:port/dbName  
